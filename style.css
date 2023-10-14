@@ -1,0 +1,20 @@
+.elem {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+body {
+  margin: 50px;
+}
+
+.elem p{
+  font-size: xx-large;
+}
+
+.jatekter {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
